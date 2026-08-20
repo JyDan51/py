@@ -1,16 +1,14 @@
-import math
-print ("The program converts the talents, pounds, and lots to full kilograms and grams and outputs the result to the user")
+print("The program converts the talents, pounds, and lots to full kilograms and grams.")
 
-talents = input("Enter the talents: ")
-pounds = input("Enter the pounds: ")
-lots = input("Enter the lots: ")
+talents = int(input("Enter the talents: "))
+pounds = int(input("Enter the pounds: "))
+lots = int(input("Enter the lots: "))
 
-resultT = talents * 0.03333
-resultP = resultT * 0.45359237
-resultL = resultP * 0.01667
+total_lots = talents * 20 * 32 + pounds * 32 + lots
+total_grams = total_lots * 13.3
+kilograms = int(total_grams // 1000)
+grams = total_grams % 1000
 
-print(f"talents to kg: {resultT}")
-print(f"pounds to kg: {resultP}")
-print(f"lots to kg: {resultL}")
+print(f"{kilograms} kilograms and {grams} grams")
 
 input("Press Enter..")
