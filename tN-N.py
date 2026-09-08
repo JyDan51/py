@@ -1,6 +1,6 @@
 while True:
     input ("Hello")
 
-    #сюда пихаю код
+    #код больше не пихаю((((((
 
     input ("Save the WORLD, my FINALE messege, goodBYE")
