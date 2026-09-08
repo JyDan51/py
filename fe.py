@@ -1,5 +1,0 @@
-print ("")
-
-
-
-input("Press Enter..")

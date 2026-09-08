@@ -1,6 +1,5 @@
 import random 
 while True:
-    input ("Hello")
 
     s = random.randint (1, 10)
 
@@ -17,5 +16,3 @@ while True:
 
         
     print ("U got that! Number was",s )
-
-    input ("Save the WORLD, my FINALE messege, goodBYE")

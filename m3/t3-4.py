@@ -1,5 +1,3 @@
-input ("Hello")
-
 year = int(input("Gime year: "))
 
 if year % 400 == 0:
@@ -13,5 +11,3 @@ elif year % 4 == 0:
 
 else:
     print ("No")
-
-input ("Press Enter..")

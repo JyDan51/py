@@ -1,5 +1,3 @@
-input ("Hello")
-
 s = input("Sex: ").strip().upper()
 hb = float(input("hemoglobin: "))
 
@@ -21,5 +19,3 @@ elif s == "M":
     
 else:
     print("Try again")
-
-input ("Press Enter..")

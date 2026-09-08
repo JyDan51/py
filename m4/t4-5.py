@@ -18,5 +18,3 @@ while True:
                 passw = input ("Password: ")
     if tries == 0:
         print ("Wrong data BRUUUUUUH, try again later!")
-
-    input ("Save the WORLD, my FINALE messege, goodBYE")

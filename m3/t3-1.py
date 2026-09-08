@@ -6,5 +6,3 @@ if kalacm >= 37:
 else:
     raznic = 37 - kalacm
     print (raznic)
-
-input ("Press Enter..")

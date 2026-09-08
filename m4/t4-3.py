@@ -1,5 +1,3 @@
-input ("Hello")
-
 n = input ("Numbers pls: ")
 
 if n != "":
@@ -23,5 +21,3 @@ while n != "":
     
 print ("Smallest: ", sml)
 print ("Largest: ", lrg)
-
-input ("Save the world, my finale messege, goodbye")

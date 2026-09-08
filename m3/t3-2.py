@@ -14,5 +14,3 @@ elif hh in ("C", "c"):
 
 else:
     print("Try againg")
-
-input ("Press Enter..")
